@@ -8,6 +8,7 @@
     <title>My Personal Website</title>
 </head>
 <body>
+    <Script src="script.js"></Script>
     <main>
 
         <section>
@@ -18,8 +19,7 @@
         </section>
 	<p> Hello,I'm Fannie M Kamunasi.</p>
 
-	<i class="fas fa-linkein"></i>
-	<i class="fas fa-facebook"></i>
+
 
 	<h2><i class="profile"></i>About Me</h2>
         <p>
@@ -29,21 +29,37 @@ Welcome to my personal page.My name is Fannie Kamunasi.I am currently a Level 4 
 
         <h2><i class="fas full-stack"></i>Gallery</h2>
         <div class="gallery">
-<img src="" alt="">
-<img src="" alt="">
-<img src="" alt="">
-<img src="" alt="">
-<img src="" alt="">
-<img src="" alt="">
-<img src="" alt="">
-<img src="" alt="">
+            <img src="Gallery/WhatsApp Image 2026-05-25 at 07.09.53.jpeg" alt="">
+            <img src="Gallery/6U9A0658.jpg" alt="">
+            <img src="Gallery/image.png" alt="">
 
 
+        </div>
+
+       <div>
+        <h3>Contact Form</h3>
+        <form id="form" action="/submit-form" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <input type="text" id="message" name="message" required><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <p id="error-message" class="error"></p>
+        <p id="message"class="error"></p>
         </div>
 </section>
     </main>
     <footer>
         <p> Fannie all rights reserved</p>
     </footer>
+
+    <script src="java.js"></script>
 </body>
 </html>
